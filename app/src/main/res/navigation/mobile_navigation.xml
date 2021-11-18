@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appnavigationdrawer.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_Peliculas"
+        android:name="com.example.appnavigationdrawer.nav_Peliculas"
+        android:label="Peliculas"
+        tools:layout="@layout/fragment_nav__peliculas" />
+    <fragment
+        android:id="@+id/nav_Calculadora"
+        android:name="com.example.appnavigationdrawer.nav_Calculadora"
+        android:label="Calculadora"
+        tools:layout="@layout/fragment_nav__calculadora" >
+        <action
+            android:id="@+id/action_nav_Calculadora_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/godzillakong"
+        android:name="com.example.appnavigationdrawer.godzillavskong"
+        android:label="Godzilla VS Kong"
+        tools:layout="@layout/fragment_godzillavskong" />
+    <fragment
+        android:id="@+id/meveo"
+        android:name="com.example.appnavigationdrawer.meveo"
+        android:label="Te Veo"
+        tools:layout="@layout/fragment_meveo" />
+    <fragment
+        android:id="@+id/rayadragon"
+        android:name="com.example.appnavigationdrawer.rayadragon"
+        android:label="Raya y el ultimo Dragon"
+        tools:layout="@layout/fragment_rayadragon" />
+    <fragment
+        android:id="@+id/mortalcomb"
+        android:name="com.example.appnavigationdrawer.mortalcomb"
+        android:label="Mortal Combat"
+        tools:layout="@layout/fragment_mortalcomb" />
+    <fragment
+        android:id="@+id/nav_sonidos"
+        android:name="com.example.appnavigationdrawer.nav_sonidos"
+        android:label="Gifs"
+        tools:layout="@layout/fragment_nav_sonidos" >
+        <action
+            android:id="@+id/action_nav_sonidos_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.example.appnavigationdrawer.nav_videos"
+        android:label="Videos"
+        tools:layout="@layout/fragment_nav_videos" />
+
+</navigation>

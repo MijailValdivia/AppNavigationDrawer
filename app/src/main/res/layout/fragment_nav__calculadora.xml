@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_Calculadora"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingVertical="20dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etNro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:hint="Numero 1"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C"
+                app:layout_constraintBottom_toTopOf="@+id/etResultado"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/etNro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="Numero 2"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etNro1" />
+
+
+            <EditText
+                android:id="@+id/etResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Resultado"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#9C9C9C"
+                app:layout_constraintBottom_toTopOf="@+id/btnSalir"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingVertical="70dp">
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnTangente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TANGENTE"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dividir"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnPotencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POTENCIA"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnFactorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FACTORIAL"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnSeno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seno"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumar"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restar"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multiplicar"
+                android:textColor="#000000"
+                app:backgroundTint="#EB7100"
+                app:cornerRadius="24dp"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salir"
+                android:translationY="90dp"
+                app:cornerRadius="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

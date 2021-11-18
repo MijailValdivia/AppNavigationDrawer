@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_sonidos"
+    android:background="#FFC107">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="299dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="198dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginBottom="550dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="30dp">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mariotubo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/mariotubo" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mariovida"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/mariovida" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/bart"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bart" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/pacman"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pacman" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnSalida"
+            android:layout_width="87dp"
+            android:layout_height="131dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="500dp"
+            android:layout_weight="1"
+            android:text="S\nA\nL\nI\nR"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

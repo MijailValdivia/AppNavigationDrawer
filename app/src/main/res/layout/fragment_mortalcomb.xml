@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context=".mortalcomb">
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="311dp"
+            android:src="@drawable/mortalkombat" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textColor="#812F33"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingVertical="20dp"
+            android:text="Paris Saint-Germain"
+            android:textAlignment="center"
+            android:textColor="#B6845D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="wrap_content"
+            android:layout_height="231dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="En un momento en que los monstruos caminan por la Tierra, la lucha de la humanidad por su futuro coloca a Godzilla y Kong en un curso de colisión que verá a las dos fuerzas más poderosas de la naturaleza en el planeta enfrentarse en una batalla espectacular para las edades. Mientras Monarch se embarca en una peligrosa misión en un terreno inexplorado y descubre pistas sobre los orígenes de los Titanes, una conspiración humana amenaza con borrar a las criaturas, tanto buenas como malas, de la faz de la tierra para siempre."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/enlace"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Enlace"
+                android:textAlignment="center"
+                android:textColor="#B6845D"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ibEnlace"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:src="@drawable/enlace" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="ATRAS"
+
+            android:translationX="265dp" />
+    </LinearLayout>
+</FrameLayout>

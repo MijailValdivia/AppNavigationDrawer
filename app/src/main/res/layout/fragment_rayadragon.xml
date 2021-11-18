@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29b6f6"
+    tools:context=".rayadragon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:src="@drawable/raya" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingVertical="20dp"
+            android:text="Mancheste City"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="wrap_content"
+            android:layout_height="231dp"
+            android:layout_weight="1"
+            android:background="#00A5AAA3"
+            android:gravity="center"
+            android:text="El Manchester City Football Club conocido como Manchester City es un club de fútbol de Mánchester Reino Unido que juega en la Premier League. Fue fundado el 23 de noviembre de 1880 bajo el nombre de St"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/enlace"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#000D0D0D"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Enlace"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ibEnlace"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#00705E78"
+                android:src="@drawable/enlace" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="ATRAS"
+
+            android:translationX="265dp" />
+    </LinearLayout>
+</FrameLayout>
